@@ -1,0 +1,12 @@
+- type: vendingMachineInventory
+  id: WeedVendInventory
+  startingInventory:
+    ClothingHeadBeanieWeedChurch: 5
+    ClothingOuterRobesWeedChurch: 5
+    ClothingShoesWeedchurchSandals: 5
+    Weejurnum: 2
+    FoodBakedCannabisBrownie: 3
+    Joint: 3
+    Blunt: 5
+    Lighter: 3
+    CannabisSeeds: 1

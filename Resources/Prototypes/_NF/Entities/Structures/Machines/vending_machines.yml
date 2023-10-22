@@ -199,3 +199,27 @@
       radius: 1.5
       energy: 1.6
       color: "#ff033e"
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineWeedchurch
+  name: WeedVend
+  description: Selling official Weedchurch clothes! Praise Weedgod!
+  components:
+  - type: VendingMachine
+    pack: WeedVendInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+  - type: Sprite
+    sprite: _NF/Structures/Machines/VendingMachines/weedchurch.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: Advertise
+    pack: WeedVendAd

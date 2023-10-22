@@ -1,0 +1,11 @@
+- type: advertisementsPack
+  id: WeedVendAd
+  advertisements:
+    - advertisement-weedvend-1
+    - advertisement-weedvend-2
+    - advertisement-weedvend-3
+    - advertisement-weedvend-4
+    - advertisement-weedvend-5
+    - advertisement-weedvend-6
+    - advertisement-weedvend-7
+    - advertisement-weedvend-8
