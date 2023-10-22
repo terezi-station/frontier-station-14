@@ -8,3 +8,14 @@
     sprite: _NF/Clothing/Head/Hoods/Coat/hoodarcadia.rsi
   - type: Clothing
     sprite: _NF/Clothing/Head/Hoods/Coat/hoodarcadia.rsi
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadWeedChurchBishop
+  name: church of weedgod bishop's hat
+  description: A holy hat worn by those with high status in the church of weedgod
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Head/Hoods/weedchurchbishop.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Head/Hoods/weedchurchbishop.rsi

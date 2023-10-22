@@ -12,3 +12,15 @@
   - type: EyeProtection
   - type: VisionCorrection
   - type: IdentityBlocker
+
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingTereziGlasses
+  name: terezi glasses # hi
+  description: red and pointy
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Eyes/Glasses/tereziglasses.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Eyes/Glasses/tereziglasses.rsi
+  - type: VisionCorrection

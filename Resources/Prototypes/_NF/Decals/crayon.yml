@@ -1,0 +1,9 @@
+- type: decal
+  id: weedleaf
+  tags: ["crayon"]
+  defaultCleanable: true
+  defaultCustomColor: true
+  defaultSnap: false
+  sprite:
+    sprite: _NF/Decals/weedleaf.rsi
+    state: weedleaf

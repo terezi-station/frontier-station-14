@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingOuterBase
+  id: ClothingOuterRobesWeedChurch
+  name: church of weedgod robes
+  description: Robes that show your devotion to the great weedgod.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/OuterClothing/weedchurchrobes.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/OuterClothing/weedchurchrobes.rsi

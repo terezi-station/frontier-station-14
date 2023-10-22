@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingHeadBaseButcherable
+  id: ClothingHeadBeanieWeedChurch
+  name: church of weedgod beanie
+  description: The beanie worn by followers of the church of weedgod
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Head/Hats/weedchurchbeanie.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Head/Hats/weedchurchbeanie.rsi

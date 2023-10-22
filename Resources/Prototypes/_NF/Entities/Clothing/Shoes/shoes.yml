@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesWeedchurchSandals
+  name: weedchurch sandals
+  description: A pair of colorful sandals belonging to members of the weedchurch.
+  components:
+  - type: Sprite
+    sprite: _NF/Clothing/Shoes/weedchurchsandals.rsi
+  - type: Clothing
+    sprite: _NF/Clothing/Shoes/weedchurchsandals.rsi
