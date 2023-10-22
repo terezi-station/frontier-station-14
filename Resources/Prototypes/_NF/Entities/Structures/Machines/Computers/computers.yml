@@ -68,7 +68,7 @@
     interfaces:
     - key: enum.ShipyardConsoleUiKey.Shipyard
       type: ShipyardConsoleBoundUserInterface
-  - type: ItemSlots  
+  - type: ItemSlots
   - type: ContainerContainer
     containers:
       ShipyardConsole-targetId: !type:ContainerSlot {}
@@ -100,7 +100,7 @@
     - map: ["computerLayerKeyboard"]
       state: generic_keyboard
     - map: ["computerLayerScreen"]
-      state: shipyard_security      
+      state: shipyard_security
     - map: ["computerLayerKeys"]
       state: telesci_key
 
@@ -109,6 +109,38 @@
   parent: ComputerShipyard
   name: black market shipyard console
   description: Used to buy ships not available through other means. Has a sticker that says SALES TAX 30%
+  components:
+  - type: ActivatableUI
+    key: enum.ShipyardConsoleUiKey.Shipyard
+  - type: UserInterface
+    interfaces:
+    - key: enum.ShipyardConsoleUiKey.Shipyard
+      type: ShipyardConsoleBoundUserInterface
+  - type: Sprite
+    sprite: _NF/Structures/Machines/computers.rsi
+    layers:
+    - map: ["computerLayerBody"]
+      state: computer_blackmarket
+    - map: ["computerLayerKeyboard"]
+      state: generic_keyboard
+    - map: ["computerLayerScreen"]
+      state: shipyard_blackmarket
+    - map: ["computerLayerKeys"]
+      state: blackmarket_key
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+        - !type:DoActsBehavior
+          acts: ["Destruction"]
+
+- type: entity
+  id: ComputerShipyardWeedChurch
+  parent: ComputerShipyard
+  name: weedchurch shipyard console
+  description: Used to buy ships related to the weedchurch, praise weedgod!
   components:
   - type: ActivatableUI
     key: enum.ShipyardConsoleUiKey.BlackMarket
@@ -120,13 +152,13 @@
     sprite: _NF/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
-      state: computer_blackmarket
+      state: computer_green
     - map: ["computerLayerKeyboard"]
       state: generic_keyboard
     - map: ["computerLayerScreen"]
-      state: shipyard_blackmarket   
+      state: shipyard_green
     - map: ["computerLayerKeys"]
-      state: blackmarket_key
+      state: green_key
   - type: Destructible
     thresholds:
     - trigger:
@@ -135,6 +167,7 @@
       behaviors:
         - !type:DoActsBehavior
           acts: ["Destruction"]
+
 
 - type: entity
   name: cargo sale computer
