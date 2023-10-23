@@ -212,7 +212,7 @@
     brokenState: broken
     normalState: normal-unshaded
   - type: Sprite
-    sprite: _NF/Structures/Machines/VendingMachines/weedchurch.rsi
+    sprite: _NF/Structures/Machines/VendingMachines/weedvend.rsi
     layers:
     - state: "off"
       map: ["enum.VendingMachineVisualLayers.Base"]
